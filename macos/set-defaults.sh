@@ -17,6 +17,16 @@ defaults write NSGlobalDomain KeyRepeat -int 1
 defaults write com.apple.Finder FXPreferredViewStyle Nlsv
 
 
+#################### SPOTLIGHT
+
+
+# Remove spotlight item from the menu bar
+defaults write com.apple.Spotlight MenuItemHidden -int 1
+
+# Disable spotlight shortcut Cmd + Space 
+/usr/libexec/PlistBuddy ~/Library/Preferences/com.apple.symbolichotkeys.plist -c \
+  "Set AppleSymbolicHotKeys:64:enabled false"
+
 
 ##################### DOCK
 
