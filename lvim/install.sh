@@ -1,6 +1,6 @@
 #!/bin/zsh
 #
-# Links config.lua to ~/.config/lvim/
+# Installs LunarVim
 #
 
 if test ! $(which lvim)

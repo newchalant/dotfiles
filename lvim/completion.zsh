@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Links things
+# Links config
 #
 
 # Creates .config folder if needed
