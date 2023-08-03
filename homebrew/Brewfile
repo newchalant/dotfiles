@@ -5,6 +5,7 @@ brew "tree"
 
 brew "yt-dlp"
 
+cask 'raycast'
 cask "iterm2"
 cask "font-hack-nerd-font"
 cask "visual-studio-code"
