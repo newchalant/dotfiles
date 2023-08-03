@@ -16,6 +16,10 @@ defaults write NSGlobalDomain KeyRepeat -int 1
 # Always open everything in Finder's list view. This is important.
 defaults write com.apple.Finder FXPreferredViewStyle Nlsv
 
+
+
+##################### DOCK
+
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
@@ -23,13 +27,19 @@ defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock orientation left
 
 # Don’t show recent applications in Dock
-defaults write com.apple.dock show-recents -bool false
+#defaults write com.apple.dock show-recents -bool false
 
 # Set the icon size of Dock items to 36 pixels
-defaults write com.apple.dock tilesize -int 36
+#defaults write com.apple.dock tilesize -int 36
 
 # Enable highlight hover effect for the grid view of a stack (Dock)
-defaults write com.apple.dock mouse-over-hilite-stack -bool true
+#defaults write com.apple.dock mouse-over-hilite-stack -bool true
+
+# Wipe all apps from the Dock
+#defaults write com.apple.dock persistent-apps -array
+
+# Show only open applications in the Dock
+#defaults write com.apple.dock static-only -bool true
 
 
 
