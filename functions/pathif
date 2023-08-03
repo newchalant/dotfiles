@@ -1,0 +1,10 @@
+#!/bin/bash
+# Adds path if path does not exist.
+echo "WE HEREREEE HOMEBREW"
+pathif(){
+if [[ ":$PATH:" == *":$1:"* ]]; then
+	echo "path exists"
+else
+	export PATH=$PATH:$1
+fi
+}

@@ -1,0 +1,24 @@
+###
+# Install the extensions
+###
+
+
+read REPLY\?"This is the question I want to ask?"
+if [[ $REPLY =~ ^(y|yes|Y) ]]
+then
+	echo "Installing VSC extensions please wait..."
+	code --install-extension dotjoshjohnson.xml
+	code --install-extension esbenp.prettier-vscode
+	code --install-extension golang.go
+	code --install-extension hashicorp.terraform
+	code --install-extension ms-azuretools.vscode-docker
+	code --install-extension ms-python.python
+	code --install-extension ms-vscode-remote.remote-containers
+	code --install-extension ms-vscode-remote.remote-ssh
+	code --install-extension ms-vscode.cpptools-extension-pack
+	code --install-extension ms-vscode.makefile-tools
+	code --install-extension streetsidesoftware.code-spell-checker
+	code --install-extension vscodevim.vim
+else
+	echo "Skipping extension install."
+fi

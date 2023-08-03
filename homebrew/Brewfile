@@ -1,0 +1,8 @@
+tap "homebrew/cask-fonts"
+
+brew "neovim"
+brew "tree"
+
+cask "iterm2"
+cask "font-hack-nerd-font"
+cask "visual-studio-code"
