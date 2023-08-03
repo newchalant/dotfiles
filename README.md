@@ -1,4 +1,4 @@
-# My spin on dotfiles (forked from holman)
+# dotfiles
 
 https://cheleb.net/2019/10/17/macos-ignore-updates/
 
@@ -14,7 +14,7 @@ https://cheleb.net/2019/10/17/macos-ignore-updates/
 
 ## TODO / Issues to fix
 
-- fix path duplications and order
+- fix path duplications and order, idk, not even sure if needed, because 
 - customization for macos defaults
 - nvim/lvim/vim
 - git setup
@@ -29,13 +29,13 @@ https://cheleb.net/2019/10/17/macos-ignore-updates/
 - what is docker?
 -
 
-## Used repos
+## Inspiration taken from
 
-- [holman](https://github.com/holman/dotfiles) for main basis
-- [Cluckerino](https://github.com/Cluckerino/dotfiles) to understand initial script base + iterm2 profile
+- [holman](https://github.com/holman/dotfiles) (main organization)
+- [Cluckerino](https://github.com/Cluckerino/dotfiles) (iterm2 profile)
 - [marcusoftnet](https://github.com/marcusoftnet/dotfiles) for vscode setup
 - [PixelJonas](https://github.com/PixelJonas/dotfiles) for brew setup
 - [elft3r](https://github.com/elft3r/dotfiles) for vscode setup
-- [mandreyel](https://github.com/mandreyel/dotfiles) for lvim(?)
+- [mandreyel](https://github.com/mandreyel/dotfiles)
 - [andrew8088](https://github.com/andrew8088/dotfiles)
 - [program247365](https://github.com/program247365/dotfiles/tree/master)
